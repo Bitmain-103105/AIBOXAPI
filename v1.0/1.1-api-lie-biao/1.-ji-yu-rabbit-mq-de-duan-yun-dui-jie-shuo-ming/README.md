@@ -5,9 +5,12 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Index</th>
-      <th style="text-align:left">&#x7248;&#x672C;</th>
-      <th style="text-align:left">&#x66F4;&#x65B0;&#x8BF4;&#x660E;</th>
+      <th style="text-align:left"><b>Index</b>
+      </th>
+      <th style="text-align:left"><b>&#x7248;&#x672C;</b>
+      </th>
+      <th style="text-align:left"><b>&#x66F4;&#x65B0;&#x8BF4;&#x660E;</b>
+      </th>
     </tr>
   </thead>
   <tbody>
