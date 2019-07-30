@@ -5,7 +5,9 @@
 ## 版本2.0 <a id="v2.0"></a>
 
 * [2.0 快速导航](v2.0/kuai-su-dao-hang.md)
+
 * [2.1 API列表](v2.0/2.1-api-lie-biao.md)
+  
   - [1.1.1 基于Rabbit MQ的端云对接说明](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
     - [1. 基于Rabbit MQ的端云系统架构设计](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/1.-ji-yu-rabbit-mq-de-duan-yun-xi-tong-jia-gou-she-ji.md)
     - [2. MQ接口流程说明](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/2.-mq-jie-kou-liu-cheng-shuo-ming/README.md)
@@ -35,9 +37,11 @@
         - [8.2.1 查询管理平台登录地址/SophonMQ/api/LoginUrl（GET）](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.1-cha-xun-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlget.md)
         - [8.2.2 更新管理平台登录地址/SophonMQ/api/LoginUrl（PUT）](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.2-geng-xin-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlput.md)
     - [9. URL组合](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/9.-url-zu-he.md)
+    
   - [1.1.2 Sophon人脸识别雾计算系统开发文档](v1.0/1.1-api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang.md)
-
-
+  
+    
+  
 
 ## 版本1.0 <a id="v1.0"></a>
 
