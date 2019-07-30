@@ -42,5 +42,4 @@
         * [8.2.2 更新管理平台登录地址/SophonMQ/api/LoginUrl（PUT）](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.2-geng-xin-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlput.md)
     * [9. URL组合](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/9.-url-zu-he.md)
   * [1.1.2 Sophon人脸识别雾计算系统开发文档](v1.0/1.1-api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang.md)
-* [Untitled](v1.0/untitled.md)
 
