@@ -4,7 +4,7 @@
 
 ## 版本2.0 <a id="v2.0"></a>
 
-* [2.0 快速导航](v2.0/kuai-su-dao-hang.md)
+* [2.0 更新说明](v2.0/geng-xin-shuo-ming.md)
 
 * [2.1 API列表](v2.0/2.1-api-lie-biao.md)
 
@@ -46,7 +46,6 @@
 
 ## 版本1.0 <a id="v1.0"></a>
 
-* [快速导航](v1.0/1.0-kuai-su-dao-hang.md)
 * [API列表](v1.0/1.1-api-lie-biao/README.md)
   * [1 基于Rabbit MQ的端云对接说明](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
     * [1. 1 基于Rabbit MQ的端云系统架构设计](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/1.-ji-yu-rabbit-mq-de-duan-yun-xi-tong-jia-gou-she-ji.md)
