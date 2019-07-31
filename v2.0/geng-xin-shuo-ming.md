@@ -1,4 +1,4 @@
-# 2.0 新增说明
+# 2.0 更新说明
 
-新增：[API 3](2.1-api-lie-biao/api3.md),[API 4](2.1-api-lie-biao/api4.md)
+新增：[API 3](API3.md),[API 4](API4.md)
 
