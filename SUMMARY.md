@@ -6,7 +6,7 @@
 
 * [2.0 新增说明](v2.0/geng-xin-shuo-ming.md)
 
-* [2.1 API列表](v2.0/2.1-api-lie-biao/README.md)
+* [2.0 API列表](v2.0/2.1-api-lie-biao/README.md)
   
   - [1 基于Rabbit MQ的端云对接说明](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
     - [1. 1 基于Rabbit MQ的端云系统架构设计](v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/1.-ji-yu-rabbit-mq-de-duan-yun-xi-tong-jia-gou-she-ji.md)
