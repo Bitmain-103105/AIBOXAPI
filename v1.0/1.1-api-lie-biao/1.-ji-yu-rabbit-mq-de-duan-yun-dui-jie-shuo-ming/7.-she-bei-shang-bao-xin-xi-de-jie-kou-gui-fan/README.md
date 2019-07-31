@@ -4,45 +4,8 @@ SE3 AI 迷你机上每一次人员比对会产生一个比对事件，因为SE3 
 
 目前提供两种事件上报方式，分别适用于不同场景：
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Index</th>
-      <th style="text-align:left">&#x4E0A;&#x62A5;&#x65B9;&#x5F0F;</th>
-      <th style="text-align:left">&#x4E0A;&#x62A5;&#x5185;&#x5BB9;</th>
-      <th style="text-align:left">&#x5B9E;&#x73B0;&#x673A;&#x5236;</th>
-      <th style="text-align:left">&#x5B9E;&#x65F6;&#x6027;</th>
-      <th style="text-align:left">&#x53EF;&#x9760;&#x6027;</th>
-      <th style="text-align:left">&#x9002;&#x7528;&#x573A;&#x666F;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">&#x5B9E;&#x65F6;&#x4E0A;&#x62A5;</td>
-      <td style="text-align:left">&#x53EA;&#x4E0A;&#x62A5;&#x6BD4;&#x5BF9;&#x5206;&#x6570;&#x5927;&#x4E8E;&#x9608;&#x503C;&#x7684;&#x6BD4;&#x5BF9;&#x4E8B;&#x4EF6;</td>
-      <td
-      style="text-align:left">&#x6BD4;&#x5BF9;&#x5B8C;&#x6210;&#xFF0C;&#x5E76;&#x4E14;&#x5206;&#x6570;&#x5927;&#x4E8E;&#x9608;&#x503C;&#x5373;&#x5F00;&#x59CB;&#x4E0A;&#x62A5;</td>
-        <td
-        style="text-align:left">&#x9AD8;</td>
-          <td style="text-align:left">&#x4F4E;&#xFF08;&#x4E0D;&#x7B49;&#x5F85;&#x63A5;&#x6536;&#x670D;&#x52A1;&#x5668;&#x7684;&#x63A5;&#x6536;&#x5B8C;&#x6210;&#x54CD;&#x5E94;&#xFF09;</td>
-          <td
-          style="text-align:left">&#x6BD4;&#x5BF9;&#x578B;&#xFF0C;&#x5982;&#x4EBA;&#x8138;&#x8BC6;&#x522B;&#x8FCE;&#x5BBE;&#xFF0C;&#x95F8;&#x673A;&#x95E8;&#x7981;&#x5F00;&#x95E8;&#x63A7;&#x5236;&#x7B49;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">&#x5386;&#x53F2;&#x4E8B;&#x4EF6;&#x4E0A;&#x62A5;</td>
-      <td style="text-align:left">&#x4E0A;&#x62A5;&#x6240;&#x6709;&#x7684;&#x4E8B;&#x4EF6;</td>
-      <td style="text-align:left">
-        <p>1 &#x4ECE;&#x5386;&#x53F2;&#x4E8B;&#x4EF6;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x67E5;&#x8BE2;&#x672A;&#x4E0A;&#x4F20;&#x7684;&#x4E8B;&#x4EF6;&#x8FDB;&#x884C;&#x6279;&#x91CF;&#x4E0A;&#x4F20;&#xFF1B;</p>
-        <p>2 &#x4E0A;&#x4F20;&#x5B8C;&#x6210;&#x540E;&#x4F1A;&#x8BB0;&#x5F55;&#x5F53;&#x524D;&#x6E38;&#x6807;&#xFF0C;&#x4F5C;&#x4E3A;&#x4E0B;&#x6B21;&#x4E0A;&#x4F20;&#x7684;&#x8D77;&#x70B9;&#xFF1B;</p>
-        <p>3 &#x4E0A;&#x4F20;&#x7684;&#x5468;&#x671F;&#x53EF;&#x914D;&#x7F6E;&#x7684;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;20s&#x3002;&#x5468;&#x671F;&#x53EF;&#x914D;&#x7F6E;&#xFF0C;&#x9700;&#x5927;&#x4E8E;&#x7B49;&#x4E8E;20s&#x3002;</p>
-        <p>4 &#x6BCF;&#x6B21;&#x4E0A;&#x4F20;&#x7684;&#x4E8B;&#x4EF6;&#x6570;&#x76EE;&#x4E0D;&#x5927;&#x4E8E;100&#x6761;&#x3002;</p>
-      </td>
-      <td style="text-align:left">&#x4F4E;</td>
-      <td style="text-align:left">&#x9AD8;&#xFF08;&#x4F1A;&#x91CD;&#x8BD5;&#x4E0A;&#x4F20;&#xFF09;</td>
-      <td
-      style="text-align:left">&#x8BB0;&#x5F55;&#x578B;&#xFF0C;&#x5982;&#x4EBA;&#x8138;&#x8BC6;&#x522B;&#x8003;&#x52E4;&#x7CFB;&#x7EDF;&#xFF0C;&#x5BA2;&#x6D41;&#x7EDF;&#x8BA1;&#x7CFB;&#x7EDF;&#x7B49;</td>
-    </tr>
-  </tbody>
-</table>
+| **index** | **上报方式** | **上报内容**                     | **实现机制**                                                 | **实时性** | **可靠性**                           | **适用场景**                               |
+| --------- | ------------ | -------------------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------ | ------------------------------------------ |
+| 1         | 实时上报     | 只上报比对分数大于阈值的比对事件 | 比对完成，并且分数大于阈值即开始上报                         | 高         | 低（不等待接收服务器的接收完成响应） | 比对型，如人脸识别迎宾，闸机门禁开门控制等 |
+| 2         | 历史事件上报 | 上报所有的事件                   | 1 从历史事件数据库中查询未上传的事件进行批量上传； <br />2 上传完成后会记录当前游标，作为下次上传的起点； <br />3 上传的周期可配置的，默认为20s。周期可配置，需大于等于20s。 <br />4 每次上传的事件数目不大于100条。 | 低         | 高（会重试上传）                     | 记录型，如人脸识别考勤系统，客流统计系统等 |
+
