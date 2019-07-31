@@ -1136,134 +1136,85 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:left">&#x4E00;&#x7EA7;&#x53C2;&#x6570;</th>
-<th style="text-align:left">&#x4E8C;&#x7EA7;&#x53C2;&#x6570;</th>
-<th style="text-align:left">&#x7C7B;&#x578B;</th>
-<th style="text-align:left">&#x9009;&#x62E9;</th>
-<th style="text-align:left">&#x8BF4;&#x660E;</th>
+<th>&#x4E00;&#x7EA7;&#x53C2;&#x6570;</th>
+<th>&#x4E8C;&#x7EA7;&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x9009;&#x62E9;</th>
+<th>&#x8BF4;&#x660E;</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>wipe_options</td>
+<td>&#x4E2D;&#x7B49;&#x6587;&#x672C;</td>
+<td>dict</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x9700;&#x8981;&#x6E05;&#x9664;&#x7684;&#x6570;&#x636E;&#x9009;&#x9879;</td>
+</tr>
+<tr>
+<td>method</td>
+<td>&#x77ED;&#x6587;&#x672C;</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>wipe_data</td>
+</tr>
+<tr>
+<td>messageId</td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>MQ&#x6D88;&#x606F;&#x7684;&#x552F;&#x4E00;&#x6807;&#x8BC6;ID</td>
+</tr>
+<tr>
+<td>extend_params</td>
+<td></td>
+<td>dict</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x6269;&#x5C55;&#x5B57;&#x6BB5;&#xFF0C;&#x53EF;&#x4EE5;&#x4E3A;&#x7A7A;</td>
+</tr>
+<tr>
+<td></td>
+<td>users</td>
+<td>bool</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x662F;&#x5426;&#x5220;&#x9664;&#x4EBA;&#x5458;&#x5E95;&#x5E93;&#x4FE1;&#x606F;<br>true&#xFF1A;&#x5220;&#x9664;<br>false&#xFF1A;&#x4E0D;&#x5220;&#x9664;</td>
+</tr>
+<tr>
+<td></td>
+<td>events</td>
+<td>bool</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x662F;&#x5426;&#x5220;&#x9664;&#x4EBA;&#x5458;&#x8BC6;&#x522B;&#x8BB0;&#x5F55;&#x4E8B;&#x4EF6;<br>true&#xFF1A;&#x5220;&#x9664;<br>false&#xFF1A;&#x4E0D;&#x5220;&#x9664;</td>
+</tr>
+<tr>
+<td></td>
+<td>..........</td>
+<td>&#x81EA;&#x5B9A;&#x4E49;</td>
+<td>&#x5F85;&#x9009;</td>
+<td>&#x4FDD;&#x7559;&#x5C06;&#x6765;&#x4F7F;&#x7528;</td>
+</tr>
+<tr>
+<td></td>
+<td>notify_path</td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL&#xFF08;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#xFF09;&#xFF0C;&#x7528;&#x4E8E;&#x901A;&#x8FC7;http&#x65B9;&#x5F0F;&#x56DE;&#x4F20;&#x547D;&#x4EE4;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x3002; &#x76F8;&#x5BF9;&#x5730;&#x5740;&#x7684;&#x7EC4;&#x5408;&#x8BF7;&#x53C2;&#x89C1; URL&#x7EC4;&#x5408;&#x7AE0;&#x8282;&#x3002;<br>&#x6CE8;&#x610F;&#xFF1A; <br>&#x5982;&#x679C;&#x767B;&#x9646;&#x65F6;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x4E0B;&#x53D1; uploadQueue &#x5B57;&#x6BB5;&#xFF0C;&#x5219;&#x4F1A;&#x901A;&#x8FC7;MQ&#x4E0A;&#x4F20;&#x901A;&#x9053;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x3002;<br> &#x5982;&#x679C;&#x6CA1;&#x6709; uploadQueue &#x5B57;&#x6BB5;&#xFF0C;&#x5E76;&#x4E14; notify_path &#x4E3A;&#x975E;&#x7A7A;&#xFF0C;&#x5219;&#x4F1A;&#x5411; notify_path &#x8FD4;&#x56DE;&#x7ED3;&#x679C;<br>&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x5B57;&#x6BB5;&#x90FD;&#x6CA1;&#x6709;&#xFF0C;&#x5219;&#x4E0D;&#x4F1A;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF08;&#x5373;&#x5355;&#x5411;&#x901A;&#x4FE1;&#xFF09;&#x3002;</td>
 </tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">method</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left"><strong>&#x5FC5;&#x9009;</strong></th>
-<th style="text-align:left">wipe_data</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">messageId</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left">&#x53EF;&#x9009;</th>
-<th style="text-align:left">MQ&#x6D88;&#x606F;&#x7684;&#x552F;&#x4E00;&#x6807;&#x8BC6;ID</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">wipe_options</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">dict</th>
-<th style="text-align:left"><strong>&#x5FC5;&#x9009;</strong></th>
-<th style="text-align:left">&#x9700;&#x8981;&#x6E05;&#x9664;&#x7684;&#x6570;&#x636E;&#x9009;&#x9879;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<p><table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">users</th>
-      <th style="text-align:left">bool</th>
-      <th style="text-align:left"><b>&#x5FC5;&#x9009;</b>
-      </th>
-      <th style="text-align:left">
-        <p>&#x662F;&#x5426;&#x5220;&#x9664;&#x4EBA;&#x5458;&#x5E95;&#x5E93;&#x4FE1;&#x606F;</p>
-        <p>true&#xFF1A;&#x5220;&#x9664;</p>
-        <p>false&#xFF1A;&#x4E0D;&#x5220;&#x9664;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">events</th>
-      <th style="text-align:left">bool</th>
-      <th style="text-align:left"><b>&#x5FC5;&#x9009;</b>
-      </th>
-      <th style="text-align:left">
-        <p>&#x662F;&#x5426;&#x5220;&#x9664;&#x4EBA;&#x5458;&#x8BC6;&#x522B;&#x8BB0;&#x5F55;&#x4E8B;&#x4EF6;</p>
-        <p>true&#xFF1A;&#x5220;&#x9664;</p>
-        <p>false&#xFF1A;&#x4E0D;&#x5220;&#x9664;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| extend_params |  | dict | <strong>&#x5FC5;&#x9009;</strong> | &#x6269;&#x5C55;&#x5B57;&#x6BB5;&#xFF0C;&#x53EF;&#x4EE5;&#x4E3A;&#x7A7A; |
-| :--- | :--- | :--- | :--- | :--- |</p>
-<p><table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">notify_path</th>
-      <th style="text-align:left">string</th>
-      <th style="text-align:left">&#x53EF;&#x9009;</th>
-      <th style="text-align:left">
-        <p>&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL&#xFF08;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#xFF09;&#xFF0C;&#x7528;&#x4E8E;&#x901A;&#x8FC7;http&#x65B9;&#x5F0F;&#x56DE;&#x4F20;&#x547D;&#x4EE4;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x3002;
-          &#x76F8;&#x5BF9;&#x5730;&#x5740;&#x7684;&#x7EC4;&#x5408;&#x8BF7;&#x53C2;&#x89C1;
-          URL&#x7EC4;&#x5408;&#x7AE0;&#x8282;&#x3002;</p>
-        <p>&#x6CE8;&#x610F;&#xFF1A;</p>
-        <p>&#x5982;&#x679C;&#x767B;&#x9646;&#x65F6;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x4E0B;&#x53D1;
-          uploadQueue &#x5B57;&#x6BB5;&#xFF0C;&#x5219;&#x4F1A;&#x901A;&#x8FC7;MQ&#x4E0A;&#x4F20;&#x901A;&#x9053;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x3002;</p>
-        <p>&#x5982;&#x679C;&#x6CA1;&#x6709; uploadQueue &#x5B57;&#x6BB5;&#xFF0C;&#x5E76;&#x4E14;
-          notify_path &#x4E3A;&#x975E;&#x7A7A;&#xFF0C;&#x5219;&#x4F1A;&#x5411; notify_path
-          &#x8FD4;&#x56DE;&#x7ED3;&#x679C;</p>
-        <p>&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x5B57;&#x6BB5;&#x90FD;&#x6CA1;&#x6709;&#xFF0C;&#x5219;&#x4E0D;&#x4F1A;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF08;&#x5373;&#x5355;&#x5411;&#x901A;&#x4FE1;&#xFF09;&#x3002;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>```text
-&quot;extend_params&quot;: {
-        &quot;notify_path&quot;: &quot;URL&quot; // &#x8FD4;&#x56DE;mq&#x547D;&#x4EE4;&#x5904;&#x7406;&#x7ED3;&#x679C;&#x7684;&#x5730;&#x5740;
-}  // &#x6269;&#x5C55;&#x5B57;&#x6BB5;&#xFF0C;&#x5F53;&#x524D;&#x4E3A;&#x7A7A;&#x3002;&#x7528;&#x4E8E;&#x5C06;&#x6765;&#x7684;&#x63A5;&#x53E3;&#x5347;&#x7EA7;&#x3002;&#x6269;&#x5C55;&#x5B57;&#x6BB5;&#x7684;&#x5185;&#x5BB9;&#x4EE5;&#x5B57;&#x5178;&#x7684;&#x5F62;&#x5F0F;&#x586B;&#x5145;&#xFF0C;&#x4F46;&#x6269;&#x5C55;&#x5B57;&#x6BB5;&#x672C;&#x8EAB;&#x4E3A;&#x5FC5;&#x9009;&#x3002;</p>
-<pre><code>
+<p><strong>MQ&#x547D;&#x4EE4;&#x793A;&#x4F8B;&#xFF1A;</strong></p>
+<pre><code>{
+    &quot;method&quot;: &quot;wipe_data&quot;, // &#x6B64;&#x5173;&#x952E;&#x5B57;&#x548C;&#x5185;&#x5BB9;&#x4E0D;&#x80FD;&#x53D8;
+    &quot;wipe_options&quot;: {
+            &quot;users&quot;:true,    //&#x8868;&#x793A;&#x8981;&#x5220;&#x9664;&#x7528;&#x6237;&#x6570;&#x636E;
+            &quot;events&quot;:false       //&#x8868;&#x793A;&#x4E0D;&#x5220;&#x9664;events&#x6570;&#x636E;
+     }&#xFF0C;
+    &quot;extend_params&quot;: {
+            &quot;notify_path&quot;: &quot;URL&quot; // &#x8FD4;&#x56DE;mq&#x547D;&#x4EE4;&#x5904;&#x7406;&#x7ED3;&#x679C;&#x7684;&#x5730;&#x5740;
+    }  // &#x6269;&#x5C55;&#x5B57;&#x6BB5;&#xFF0C;&#x5F53;&#x524D;&#x4E3A;&#x7A7A;&#x3002;&#x7528;&#x4E8E;&#x5C06;&#x6765;&#x7684;&#x63A5;&#x53E3;&#x5347;&#x7EA7;&#x3002;&#x6269;&#x5C55;&#x5B57;&#x6BB5;&#x7684;&#x5185;&#x5BB9;&#x4EE5;&#x5B57;&#x5178;&#x7684;&#x5F62;&#x5F0F;&#x586B;&#x5145;&#xFF0C;&#x4F46;&#x6269;&#x5C55;&#x5B57;&#x6BB5;&#x672C;&#x8EAB;&#x4E3A;&#x5FC5;&#x9009;&#x3002;
 }
-
-```text
-&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x793A;&#x4F8B;&#xFF1A;
-
-```text
+</code></pre><p>&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code>
 {
     &quot;success&quot;:true&#xFF0C;
     &quot;code&quot;:0,
@@ -1318,7 +1269,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.5.2 设备数据清理MQ消息","level":"2.2.1.5.2","depth":4,"next":{"title":"1.5.3 人脸图片质量检测（FIQA）MQ消息","level":"2.2.1.5.3","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.3-ren-lian-tu-pian-zhi-liang-jian-ce-fiqamq-xiao-xi.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.3-ren-lian-tu-pian-zhi-liang-jian-ce-fiqamq-xiao-xi.md","articles":[]},"previous":{"title":"1.5.1.2 删除用户（delete_users）","level":"2.2.1.5.1.2","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.2-shan-chu-yong-hu-deleteusers.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.2-shan-chu-yong-hu-deleteusers.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","livereload"],"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.2-she-bei-shu-ju-qing-li-mq-xiao-xi.md","mtime":"2019-07-31T04:09:59.431Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-31T06:09:58.578Z"},"basePath":"../../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1.5.2 设备数据清理MQ消息","level":"2.2.1.5.2","depth":4,"next":{"title":"1.5.3 人脸图片质量检测（FIQA）MQ消息","level":"2.2.1.5.3","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.3-ren-lian-tu-pian-zhi-liang-jian-ce-fiqamq-xiao-xi.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.3-ren-lian-tu-pian-zhi-liang-jian-ce-fiqamq-xiao-xi.md","articles":[]},"previous":{"title":"1.5.1.2 删除用户（delete_users）","level":"2.2.1.5.1.2","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.2-shan-chu-yong-hu-deleteusers.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.2-shan-chu-yong-hu-deleteusers.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","livereload"],"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.2-she-bei-shu-ju-qing-li-mq-xiao-xi.md","mtime":"2019-07-31T07:01:06.746Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-31T10:49:18.530Z"},"basePath":"../../../..","book":{"language":""}});
         });
     </script>
 </div>

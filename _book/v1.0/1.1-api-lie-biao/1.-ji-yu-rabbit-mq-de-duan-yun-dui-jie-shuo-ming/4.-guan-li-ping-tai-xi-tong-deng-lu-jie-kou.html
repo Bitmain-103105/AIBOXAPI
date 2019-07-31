@@ -1170,411 +1170,230 @@ http://ip:port/login?dev_sno=xxxx
 <table>
 <thead>
 <tr>
-<th style="text-align:left">&#x4E00;&#x7EA7;&#x53C2;&#x6570;</th>
-<th style="text-align:left">&#x4E8C;&#x7EA7;&#x53C2;&#x6570;</th>
-<th style="text-align:left">&#x56DB;&#x7EA7;&#x53C2;&#x6570;</th>
-<th style="text-align:left">&#x7C7B;&#x578B;</th>
-<th style="text-align:left"><strong>&#x9009;&#x62E9;</strong></th>
-<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+<th><strong>&#x4E00;&#x7EA7;&#x53C2;&#x6570;</strong></th>
+<th><strong>&#x4E8C;&#x7EA7;&#x53C2;&#x6570;</strong></th>
+<th><strong>&#x4E09;&#x7EA7;&#x53C2;&#x6570;</strong></th>
+<th><strong>&#x7C7B;&#x578B;</strong></th>
+<th><strong>&#x9009;&#x62E9;</strong></th>
+<th><strong>&#x63CF;&#x8FF0;</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>token</td>
+<td></td>
+<td></td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x8BF7;&#x6C42;&#x4E91;&#x5E73;&#x53F0;&#x63A5;&#x53E3;&#x9700;&#x8981;&#x643A;&#x5E26;&#x7684;&#x53C2;&#x6570;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">token</th>
-<th style="text-align:left"></th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left"><strong>&#x5FC5;&#x9009;</strong></th>
-<th style="text-align:left">&#x8BF7;&#x6C42;&#x4E91;&#x5E73;&#x53F0;&#x63A5;&#x53E3;&#x9700;&#x8981;&#x643A;&#x5E26;&#x7684;&#x53C2;&#x6570;</th>
+<td>imgServerAddr</td>
+<td></td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x56FE;&#x7247;&#x670D;&#x52A1;&#x5668;URL&#xFF0C;&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x7167;&#x7247;&#x3002;&#x5982;&#x679C;&#x4E0B;&#x53D1;&#x5F97;&#x56FE;&#x7247;&#x4E2D;&#x662F;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x586B;&#x5199;&#x6B64;&#x5730;&#x5740;&#x3002;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>recordAddr</td>
+<td></td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL&#x5217;&#x8868;&#xFF0C;&#x6BCF;&#x4E2A;URL&#xFF08;&#x53EF;&#x4EE5;&#x4E3A;&#x7EDD;&#x5BF9;&#x5730;&#x5740;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#xFF09;&#x95F4;&#x4EE5;&#x9017;&#x53F7;&#x5206;&#x9694;&#x3002; &#x7528;&#x4E8E;&#x63A5;&#x6536;&#x201C;&#x4EBA;&#x5458;&#x901A;&#x884C;&#x8BB0;&#x5F55;&#x201D;&#x3002; &#x5982;&#xFF1A; <br>&#x793A;&#x4F8B;1&#xFF1A;&quot;/getRecord , /getRecord2&quot;, <br>&#x793A;&#x4F8B;2&#xFF1A;&quot;/getRecord , <a href="https://xxxx.com/getBackupRecord" target="_blank">https://xxxx.com/getBackupRecord</a>&quot; <br>&#x793A;&#x4F8B;3&#xFF1A;&quot;<a href="http://xxx.com/getRecord" target="_blank">http://xxx.com/getRecord</a>, <a href="http://xxx.com/getBackupRecord" target="_blank">http://xxx.com/getBackupRecord</a>&quot;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">imgServerAddr</th>
-<th style="text-align:left"></th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left">&#x53EF;&#x9009;</th>
-<th style="text-align:left">&#x56FE;&#x7247;&#x670D;&#x52A1;&#x5668;URL&#xFF0C;&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x7167;&#x7247;&#x3002;&#x5982;&#x679C;&#x4E0B;&#x53D1;&#x5F97;&#x56FE;&#x7247;&#x4E2D;&#x662F;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x586B;&#x5199;&#x6B64;&#x5730;&#x5740;&#x3002;</th>
+<td>recordUploadPeriod</td>
+<td></td>
+<td></td>
+<td>int</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x901A;&#x884C;&#x8BB0;&#x5F55;&#x5468;&#x671F;&#x4E0A;&#x4F20;&#x65F6;&#x95F4;&#xFF0C;&#x5927;&#x4E8E;&#x7B49;&#x4E8E;1&#x79D2;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;5&#x79D2;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>deviceInfoAddr</td>
+<td></td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL&#xFF08;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#xFF09;&#xFF0C;&#x7528;&#x4E8E;&#x63A5;&#x6536;&#x201C;&#x8BBE;&#x5907;&#x6DFB;&#x52A0;&#x4E8B;&#x4EF6;&#x201D;&#x3002;&#x5982;&#xFF1A;/getDeviceInfo</td>
 </tr>
-</tbody>
-</table>
-<p><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">recordAddr</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">string</th>
-      <th style="text-align:left">&#x53EF;&#x9009;</th>
-      <th style="text-align:left">
-        <p>&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL&#x5217;&#x8868;&#xFF0C;&#x6BCF;&#x4E2A;URL&#xFF08;&#x53EF;&#x4EE5;&#x4E3A;&#x7EDD;&#x5BF9;&#x5730;&#x5740;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#xFF09;&#x95F4;&#x4EE5;&#x9017;&#x53F7;&#x5206;&#x9694;&#x3002;</p>
-        <p>&#x7528;&#x4E8E;&#x63A5;&#x6536;&#x201C;&#x4EBA;&#x5458;&#x901A;&#x884C;&#x8BB0;&#x5F55;&#x201D;&#x3002;
-          &#x5982;&#xFF1A;</p>
-        <p>&#x793A;&#x4F8B;1&#xFF1A;&quot;/getRecord , /getRecord2&quot;,</p>
-        <p>&#x793A;&#x4F8B;2&#xFF1A;&quot;/getRecord , https://xxxx.com/getBackupRecord&quot;</p>
-        <p>&#x793A;&#x4F8B;3&#xFF1A;&quot;<a href="http://xxx.com/getRecord," target="_blank">http://xxx.com/getRecord,</a> 
-          <a href="http://xxx.com/" target="_blank">http://xxx.com</a>/getBackupRecord&quot;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| deviceInfoAddr |  |  | string | &#x53EF;&#x9009; | &#x7BA1;&#x7406;&#x5E73;&#x53F0;URL&#xFF08;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#xFF09;&#xFF0C;&#x7528;&#x4E8E;&#x63A5;&#x6536;&#x201C;&#x8BBE;&#x5907;&#x6DFB;&#x52A0;&#x4E8B;&#x4EF6;&#x201D;&#x3002;&#x5982;&#xFF1A;/getDeviceInfo |
-| :--- | :--- | :--- | :--- | :--- | :--- |</p>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">deviceMonitorAddr</th>
-<th style="text-align:left"></th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left">&#x53EF;&#x9009;</th>
-<th style="text-align:left">&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL&#xFF08;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#xFF09;&#xFF0C;&#x7528;&#x4E8E;&#x63A5;&#x6536;&#x201C;&#x8BBE;&#x5907;&#x72B6;&#x6001;&#x4E0A;&#x62A5;&#x4FE1;&#x606F;&#x201D;&#x3002;&#x5982;&#xFF1A;/deviceMonitor</th>
+<td>deviceMonitorAddr</td>
+<td></td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL (&#x76F8;&#x5BF9;&#x5730;&#x5740;) &#xFF0C; &#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x8BBE;&#x5907;&#x72B6;&#x6001;&#x4E0A;&#x62A5;&#x5F97;&#x5468;&#x671F;&#xFF0C;&#x9ED8;&#x8BA4;20&#x79D2;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>deviceMonitorPeriod</td>
+<td></td>
+<td></td>
+<td>int</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL (&#x76F8;&#x5BF9;&#x5730;&#x5740;) &#xFF0C; &#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x8BBE;&#x5907;&#x72B6;&#x6001;&#x4E0A;&#x62A5;&#x5F97;&#x5468;&#x671F;&#xFF0C;&#x9ED8;&#x8BA4;20&#x79D2;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">deviceMonitorPeriod</th>
-<th style="text-align:left"></th>
-<th style="text-align:left"></th>
-<th style="text-align:left">int</th>
-<th style="text-align:left">&#x53EF;&#x9009;</th>
-<th style="text-align:left">&#x7BA1;&#x7406;&#x5E73;&#x53F0;URL (&#x76F8;&#x5BF9;&#x5730;&#x5740;) &#xFF0C; &#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x8BBE;&#x5907;&#x72B6;&#x6001;&#x4E0A;&#x62A5;&#x5F97;&#x5468;&#x671F;&#xFF0C;&#x9ED8;&#x8BA4;20&#x79D2;</th>
+<td>rabbitmq</td>
+<td></td>
+<td></td>
+<td>dict</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>MQ&#x670D;&#x52A1;&#x5668;&#x914D;&#x7F6E;&#x53C2;&#x6570;&#x96C6;&#x5408;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>rabbitmq</td>
+<td>host</td>
+<td></td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>MQ&#x670D;&#x52A1;&#x5668;&#x5730;&#x5740;, &#x5982; mq.xxx.com</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left"></th>
-<th style="text-align:left"></th>
-<th style="text-align:left">dict</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">MQ&#x670D;&#x52A1;&#x5668;&#x914D;&#x7F6E;&#x53C2;&#x6570;&#x96C6;&#x5408;</th>
+<td>rabbitmq</td>
+<td>port</td>
+<td></td>
+<td>int</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>MQ&#x670D;&#x52A1;&#x5668;&#x8FDE;&#x63A5;&#x7AEF;&#x53E3;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>rabbitmq</td>
+<td>login</td>
+<td></td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>MQ&#x670D;&#x52A1;&#x5668;&#x767B;&#x5F55;&#x7528;&#x6237;&#x540D;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left">host</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">MQ&#x670D;&#x52A1;&#x5668;&#x5730;&#x5740;, &#x5982; mq.xxx.com</th>
+<td>rabbitmq</td>
+<td>password</td>
+<td></td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>MQ&#x670D;&#x52A1;&#x5668;&#x8FDE;&#x63A5;&#x5BC6;&#x7801;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>rabbitmq</td>
+<td>queue</td>
+<td></td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>MQ&#x6D88;&#x606F;&#x4E0B;&#x53D1;&#x961F;&#x5217;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left">port</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">int</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">MQ&#x670D;&#x52A1;&#x5668;&#x8FDE;&#x63A5;&#x7AEF;&#x53E3;</th>
+<td>rabbitmq</td>
+<td>vHost</td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>MQ&#x670D;&#x52A1;&#x5668;&#x767B;&#x5F55;&#x7528;&#x6237;&#x540D;&#x53CA;&#x4E0B;&#x53D1;&#x961F;&#x5217;&#x6240;&#x5728;&#x865A;&#x62DF;&#x4E3B;&#x673A;.&#x5982;&#x679C;&#x4E0D;&#x6307;&#x5B9A;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;&quot;/&quot;&#x3002;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>rabbitmq</td>
+<td>uploadVHost</td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>MQ&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x62A5;&#x961F;&#x5217;&#x6240;&#x5728;&#x865A;&#x62DF;&#x4E3B;&#x673A;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x6307;&#x5B9A;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;&quot;/&quot;&#x3002;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left">login</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">MQ&#x670D;&#x52A1;&#x5668;&#x767B;&#x5F55;&#x7528;&#x6237;&#x540D;</th>
+<td>rabbitmq</td>
+<td>uploadQueue</td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>MQ&#x6D88;&#x606F;&#x4E0A;&#x4F20;&#x961F;&#x5217;, &#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x4E0D;&#x901A;&#x8FC7;MQ&#x6D88;&#x606F;&#x961F;&#x5217;&#x56DE;&#x4F20;&#x7ED3;&#x679C;, &#x5728;uploadVHost&#x865A;&#x62DF;&#x4E3B;&#x673A;&#x4E0B;&#x3002;&#x9ED8;&#x8BA4;&#x662F;&#x4E0D;&#x652F;&#x6301;MQ&#x6D88;&#x606F;&#x4E0A;&#x4F20;&#xFF08;&#x5373;&#x5355;&#x5411;&#x901A;&#x4FE1;&#xFF09;&#x3002;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>rabbitmq</td>
+<td>fiqaDownQueue</td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x4EBA;&#x8138;&#x56FE;&#x7247;&#x8D28;&#x91CF;&#x68C0;&#x6D4B;(FIQA)&#x547D;&#x4EE4;&#x4E0B;&#x53D1;&#x961F;&#x5217;&#x3002;<br> &#x6CE8;&#x610F;&#xFF1A;&#x5F53;&#x628A;SE3 AI&#x8FF7;&#x4F60;&#x673A;&#x7528;&#x4F5C;&#x56FE;&#x7247;&#x8D28;&#x91CF;&#x6821;&#x9A8C;&#x670D;&#x52A1;&#x5668;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x4E0B;&#x53D1;&#x6B64;&#x680F;&#x4F4D;&#x3002;&#x5426;&#x5219;&#x4E0D;&#x652F;&#x6301;&#x901A;&#x8FC7;MQ&#x547D;&#x4EE4;&#x8FDB;&#x884C;FIQA&#x6821;&#x9A8C;&#x529F;&#x80FD;&#x3002;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left">password</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">MQ&#x670D;&#x52A1;&#x5668;&#x8FDE;&#x63A5;&#x5BC6;&#x7801;</th>
+<td>rabbitmq</td>
+<td>fiqaUploadQueue</td>
+<td></td>
+<td>string</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x4EBA;&#x8138;&#x56FE;&#x7247;&#x8D28;&#x91CF;&#x68C0;&#x6D4B;(FIQA)&#x547D;&#x4EE4;&#x7ED3;&#x679C;&#x4E0A;&#x4F20;&#x961F;&#x5217;&#x3002;<br> &#x6CE8;&#x610F;&#xFF1A;&#x5F53;&#x628A;SE3 AI&#x8FF7;&#x4F60;&#x673A;&#x7528;&#x4F5C;&#x56FE;&#x7247;&#x8D28;&#x91CF;&#x6821;&#x9A8C;&#x670D;&#x52A1;&#x5668;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x4E0B;&#x53D1;&#x6B64;&#x680F;&#x4F4D;&#x3002;&#x5426;&#x5219;&#x4E0D;&#x652F;&#x6301;&#x901A;&#x8FC7;MQ&#x547D;&#x4EE4;&#x8FDB;&#x884C;FIQA&#x6821;&#x9A8C;&#x529F;&#x80FD;&#x3002;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>rabbitmq</td>
+<td>unNeedBindExchange</td>
+<td></td>
+<td>bool</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x6D88;&#x606F;&#x961F;&#x5217;&#x662F;&#x5426;&#x9700;&#x8981;&#x7ED1;&#x5B9A;&#x5230;&#x4EA4;&#x6362;&#x673A;&#xFF0C; &#x9ED8;&#x8BA4;&#x4E3A;false&#xFF0C; &#x5373;&#x9700;&#x8981;&#x7ED1;&#x5B9A;&#x5230;&#x6D88;&#x606F;&#x961F;&#x5217;&#x3002;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left">queue</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">MQ&#x6D88;&#x606F;&#x4E0B;&#x53D1;&#x961F;&#x5217;</th>
+<td>arguments</td>
+<td>exchange</td>
+<td></td>
+<td>dict</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>arguments</td>
+<td>exchange</td>
+<td>name</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x4EA4;&#x6362;&#x673A;&#x540D;&#x79F0;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left">vHost</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left">&#x53EF;&#x9009;</th>
-<th style="text-align:left">MQ&#x670D;&#x52A1;&#x5668;&#x767B;&#x5F55;&#x7528;&#x6237;&#x540D;&#x53CA;&#x4E0B;&#x53D1;&#x961F;&#x5217;&#x6240;&#x5728;&#x865A;&#x62DF;&#x4E3B;&#x673A;.&#x5982;&#x679C;&#x4E0D;&#x6307;&#x5B9A;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;&quot;/&quot;&#x3002;</th>
+<td>arguments</td>
+<td>exchange</td>
+<td>type</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x4EA4;&#x6362;&#x673A;&#x7C7B;&#x578B;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>arguments</td>
+<td>exchange</td>
+<td>passive</td>
+<td>bool</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x68C0;&#x67E5;&#x4EA4;&#x6362;&#x673A;&#x662F;&#x5426;&#x5B58;&#x5728;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;false</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left">uploadVHost</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left">&#x53EF;&#x9009;</th>
-<th style="text-align:left">MQ&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x62A5;&#x961F;&#x5217;&#x6240;&#x5728;&#x865A;&#x62DF;&#x4E3B;&#x673A;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x6307;&#x5B9A;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;&quot;/&quot;&#x3002;</th>
+<td>arguments</td>
+<td>exchange</td>
+<td>durable</td>
+<td>bool</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x961F;&#x5217;&#x6301;&#x4E45;&#x5316;&#x6807;&#x5FD7;&#xFF0C;true&#x4E3A;&#x6301;&#x4E45;&#x5316;&#x961F;&#x5217;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
+<td>arguments</td>
+<td>exchange</td>
+<td>auto_delete</td>
+<td>bool</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x81EA;&#x52A8;&#x5220;&#x9664;</td>
 </tr>
-</tbody>
-</table>
-<table>
-<thead>
 <tr>
-<th style="text-align:left">rabbitmq</th>
-<th style="text-align:left">uploadQueue</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">string</th>
-<th style="text-align:left">&#x53EF;&#x9009;</th>
-<th style="text-align:left">MQ&#x6D88;&#x606F;&#x4E0A;&#x4F20;&#x961F;&#x5217;, &#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x4E0D;&#x901A;&#x8FC7;MQ&#x6D88;&#x606F;&#x961F;&#x5217;&#x56DE;&#x4F20;&#x7ED3;&#x679C;, &#x5728;uploadVHost&#x865A;&#x62DF;&#x4E3B;&#x673A;&#x4E0B;&#x3002;&#x9ED8;&#x8BA4;&#x662F;&#x4E0D;&#x652F;&#x6301;MQ&#x6D88;&#x606F;&#x4E0A;&#x4F20;&#xFF08;&#x5373;&#x5355;&#x5411;&#x901A;&#x4FE1;&#xFF09;&#x3002;</th>
+<td>arguments</td>
+<td>exchange</td>
+<td>dict</td>
+<td></td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x6269;&#x5C55;&#x53C2;&#x6570;</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<p><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">rabbitmq</th>
-      <th style="text-align:left">fiqaDownQueue</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">string</th>
-      <th style="text-align:left">&#x53EF;&#x9009;</th>
-      <th style="text-align:left">
-        <p>&#x4EBA;&#x8138;&#x56FE;&#x7247;&#x8D28;&#x91CF;&#x68C0;&#x6D4B;(FIQA)&#x547D;&#x4EE4;&#x4E0B;&#x53D1;&#x961F;&#x5217;&#x3002;</p>
-        <p>&#x6CE8;&#x610F;&#xFF1A;&#x5F53;&#x628A;SE3 AI&#x8FF7;&#x4F60;&#x673A;&#x7528;&#x4F5C;&#x56FE;&#x7247;&#x8D28;&#x91CF;&#x6821;&#x9A8C;&#x670D;&#x52A1;&#x5668;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x4E0B;&#x53D1;&#x6B64;&#x680F;&#x4F4D;&#x3002;&#x5426;&#x5219;&#x4E0D;&#x652F;&#x6301;&#x901A;&#x8FC7;MQ&#x547D;&#x4EE4;&#x8FDB;&#x884C;FIQA&#x6821;&#x9A8C;&#x529F;&#x80FD;&#x3002;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">rabbitmq</th>
-      <th style="text-align:left">fiqaUploadQueue</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">string</th>
-      <th style="text-align:left">&#x53EF;&#x9009;</th>
-      <th style="text-align:left">
-        <p>&#x4EBA;&#x8138;&#x56FE;&#x7247;&#x8D28;&#x91CF;&#x68C0;&#x6D4B;(FIQA)&#x547D;&#x4EE4;&#x7ED3;&#x679C;&#x4E0A;&#x4F20;&#x961F;&#x5217;&#x3002;</p>
-        <p>&#x6CE8;&#x610F;&#xFF1A;&#x5F53;&#x628A;SE3 AI&#x8FF7;&#x4F60;&#x673A;&#x7528;&#x4F5C;&#x56FE;&#x7247;&#x8D28;&#x91CF;&#x6821;&#x9A8C;&#x670D;&#x52A1;&#x5668;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x4E0B;&#x53D1;&#x6B64;&#x680F;&#x4F4D;&#x3002;&#x5426;&#x5219;&#x4E0D;&#x652F;&#x6301;&#x901A;&#x8FC7;MQ&#x547D;&#x4EE4;&#x8FDB;&#x884C;FIQA&#x6821;&#x9A8C;&#x529F;&#x80FD;&#x3002;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| arguments | exchange |  | dict | <strong>&#x5FC5;&#x9009;</strong> |  |
-| :--- | :--- | :--- | :--- | :--- | :--- |</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">arguments</th>
-<th style="text-align:left">exchange</th>
-<th style="text-align:left">name</th>
-<th style="text-align:left">string</th>
-<th style="text-align:left"><strong>&#x5FC5;&#x9009;</strong></th>
-<th style="text-align:left">&#x4EA4;&#x6362;&#x673A;&#x540D;&#x79F0;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">arguments</th>
-<th style="text-align:left">exchange</th>
-<th style="text-align:left">type</th>
-<th style="text-align:left">string</th>
-<th style="text-align:left"><strong>&#x5FC5;&#x9009;</strong></th>
-<th style="text-align:left">&#x4EA4;&#x6362;&#x673A;&#x7C7B;&#x578B;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">arguments</th>
-<th style="text-align:left">exchange</th>
-<th style="text-align:left">passive</th>
-<th style="text-align:left">bool</th>
-<th style="text-align:left"><strong>&#x5FC5;&#x9009;</strong></th>
-<th style="text-align:left">&#x68C0;&#x67E5;&#x4EA4;&#x6362;&#x673A;&#x662F;&#x5426;&#x5B58;&#x5728;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;false</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">arguments</th>
-<th style="text-align:left">exchange</th>
-<th style="text-align:left">durable</th>
-<th style="text-align:left">bool</th>
-<th style="text-align:left"><strong>&#x5FC5;&#x9009;</strong></th>
-<th style="text-align:left">&#x961F;&#x5217;&#x6301;&#x4E45;&#x5316;&#x6807;&#x5FD7;&#xFF0C;true&#x4E3A;&#x6301;&#x4E45;&#x5316;&#x961F;&#x5217;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">arguments</th>
-<th style="text-align:left">exchange</th>
-<th style="text-align:left">auto_delete</th>
-<th style="text-align:left">bool</th>
-<th style="text-align:left"><strong>&#x5FC5;&#x9009;</strong></th>
-<th style="text-align:left">&#x81EA;&#x52A8;&#x5220;&#x9664;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">arguments</th>
-<th style="text-align:left">exchange</th>
-<th style="text-align:left">dict</th>
-<th style="text-align:left">&#x5FC5;&#x9009;</th>
-<th style="text-align:left">&#x6269;&#x5C55;&#x53C2;&#x6570;</th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:left">.......</th>
-<th style="text-align:left"></th>
-<th style="text-align:left">&#x81EA;&#x5B9A;&#x4E49;</th>
-<th style="text-align:left">&#x53EF;&#x9009;</th>
-<th style="text-align:left">&#x4FDD;&#x7559;&#x5C06;&#x6765;&#x7528;&#x4E8E;&#x4E0B;&#x53D1;MQ&#x670D;&#x52A1;&#x5668;&#x5176;&#x5B83;&#x914D;&#x7F6E;&#x4FE1;&#x606F;&#x3002;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"></td>
+<td></td>
+<td>.......</td>
+<td></td>
+<td>&#x81EA;&#x5B9A;&#x4E49;</td>
+<td>&#x53EF;&#x9009;</td>
+<td>&#x4FDD;&#x7559;&#x5C06;&#x6765;&#x7528;&#x4E8E;&#x4E0B;&#x53D1;MQ&#x670D;&#x52A1;&#x5668;&#x5176;&#x5B83;&#x914D;&#x7F6E;&#x4FE1;&#x606F;&#x3002;</td>
 </tr>
 </tbody>
 </table>
@@ -1675,7 +1494,7 @@ http://ip:port/login?dev_sno=xxxx
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.4 管理平台系统登录接口","level":"2.2.1.4","depth":3,"next":{"title":"1.5 MQ命令接口详细说明","level":"2.2.1.5","depth":3,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/README.md","articles":[{"title":"1.5.1 用户管理MQ消息","level":"2.2.1.5.1","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/README.md","articles":[{"title":"1.5.1.1 添加或更新用户（add_users_plus）","level":"2.2.1.5.1.1","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.1-tian-jia-huo-geng-xin-yong-hu-addusersplus.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.1-tian-jia-huo-geng-xin-yong-hu-addusersplus.md","articles":[]},{"title":"1.5.1.2 删除用户（delete_users）","level":"2.2.1.5.1.2","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.2-shan-chu-yong-hu-deleteusers.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.2-shan-chu-yong-hu-deleteusers.md","articles":[]}]},{"title":"1.5.2 设备数据清理MQ消息","level":"2.2.1.5.2","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.2-she-bei-shu-ju-qing-li-mq-xiao-xi.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.2-she-bei-shu-ju-qing-li-mq-xiao-xi.md","articles":[]},{"title":"1.5.3 人脸图片质量检测（FIQA）MQ消息","level":"2.2.1.5.3","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.3-ren-lian-tu-pian-zhi-liang-jian-ce-fiqamq-xiao-xi.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.3-ren-lian-tu-pian-zhi-liang-jian-ce-fiqamq-xiao-xi.md","articles":[]},{"title":"1.5.4 mq执行结果返回接口","level":"2.2.1.5.4","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.4-mq-zhi-hang-jie-guo-fan-hui-jie-kou.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.4-mq-zhi-hang-jie-guo-fan-hui-jie-kou.md","articles":[]}]},"previous":{"title":"1.3 状态码详细说明","level":"2.2.1.3","depth":3,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/3.-zhuang-tai-ma-xiang-xi-shuo-ming.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/3.-zhuang-tai-ma-xiang-xi-shuo-ming.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","livereload"],"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/4.-guan-li-ping-tai-xi-tong-deng-lu-jie-kou.md","mtime":"2019-07-31T06:16:55.960Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-31T06:09:58.578Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1.4 管理平台系统登录接口","level":"2.2.1.4","depth":3,"next":{"title":"1.5 MQ命令接口详细说明","level":"2.2.1.5","depth":3,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/README.md","articles":[{"title":"1.5.1 用户管理MQ消息","level":"2.2.1.5.1","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/README.md","articles":[{"title":"1.5.1.1 添加或更新用户（add_users_plus）","level":"2.2.1.5.1.1","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.1-tian-jia-huo-geng-xin-yong-hu-addusersplus.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.1-tian-jia-huo-geng-xin-yong-hu-addusersplus.md","articles":[]},{"title":"1.5.1.2 删除用户（delete_users）","level":"2.2.1.5.1.2","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.2-shan-chu-yong-hu-deleteusers.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.1-yong-hu-guan-li-mq-xiao-xi/5.1.2-shan-chu-yong-hu-deleteusers.md","articles":[]}]},{"title":"1.5.2 设备数据清理MQ消息","level":"2.2.1.5.2","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.2-she-bei-shu-ju-qing-li-mq-xiao-xi.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.2-she-bei-shu-ju-qing-li-mq-xiao-xi.md","articles":[]},{"title":"1.5.3 人脸图片质量检测（FIQA）MQ消息","level":"2.2.1.5.3","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.3-ren-lian-tu-pian-zhi-liang-jian-ce-fiqamq-xiao-xi.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.3-ren-lian-tu-pian-zhi-liang-jian-ce-fiqamq-xiao-xi.md","articles":[]},{"title":"1.5.4 mq执行结果返回接口","level":"2.2.1.5.4","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.4-mq-zhi-hang-jie-guo-fan-hui-jie-kou.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/5.-mq-ming-ling-jie-kou-xiang-xi-shuo-ming/5.4-mq-zhi-hang-jie-guo-fan-hui-jie-kou.md","articles":[]}]},"previous":{"title":"1.3 状态码详细说明","level":"2.2.1.3","depth":3,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/3.-zhuang-tai-ma-xiang-xi-shuo-ming.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/3.-zhuang-tai-ma-xiang-xi-shuo-ming.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","livereload"],"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/4.-guan-li-ping-tai-xi-tong-deng-lu-jie-kou.md","mtime":"2019-07-31T06:40:40.361Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-31T10:49:18.530Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>

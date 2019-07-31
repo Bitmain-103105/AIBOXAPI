@@ -1131,7 +1131,183 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="174-&#x8BBE;&#x5907;&#x64CD;&#x4F5C;&#x4E8B;&#x4EF6;&#x4E0A;&#x62A5;">1.7.4 &#x8BBE;&#x5907;&#x64CD;&#x4F5C;&#x4E8B;&#x4EF6;&#x4E0A;&#x62A5;</h1>
-
+<p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>&#x4E00;&#x7EA7;&#x53C2;&#x6570;</strong></th>
+<th><strong>&#x4E8C;&#x7EA7;&#x53C2;&#x6570;</strong></th>
+<th><strong>&#x7C7B;&#x578B;</strong></th>
+<th><strong>&#x9009;&#x62E9;</strong></th>
+<th><strong>&#x63CF;&#x8FF0;</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>actiontype</td>
+<td></td>
+<td>int</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>1-add 2-delete</td>
+</tr>
+<tr>
+<td>deviceInfo</td>
+<td></td>
+<td>dict</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x8BBE;&#x5907;&#x4FE1;&#x606F;</td>
+</tr>
+<tr>
+<td></td>
+<td>epId</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>SN/&#x5C0F;&#x76D2;&#x5B50;&#x6807;&#x8BC6;</td>
+</tr>
+<tr>
+<td></td>
+<td>devSno</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x5C0F;&#x76D2;&#x5B50;&#x6807;&#x8BC6;</td>
+</tr>
+<tr>
+<td></td>
+<td>direction</td>
+<td>int</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x8BBE;&#x5907;&#x65B9;&#x5411;0-&#x8FDB; 1-&#x51FA;</td>
+</tr>
+<tr>
+<td></td>
+<td>epType</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>0-&#x95F8;&#x673A;<br>1-&#x6293;&#x62CD;&#x673A;<br>2-IPC&#x9759;&#x6001;<br>3-IPC&#x52A8;&#x6001;<br>4-&#x95E8;&#x7981;</td>
+</tr>
+<tr>
+<td></td>
+<td>memo</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x8BBE;&#x5907;&#x63CF;&#x8FF0;</td>
+</tr>
+<tr>
+<td></td>
+<td>epName</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x522B;&#x540D;</td>
+</tr>
+<tr>
+<td></td>
+<td>epIp</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x8BBE;&#x5907;ip</td>
+</tr>
+<tr>
+<td></td>
+<td>epStatus</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>1-online,<br>2-offline,<br>3-unknown</td>
+</tr>
+<tr>
+<td></td>
+<td>epVersion</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x8F6F;&#x4EF6;&#x7248;&#x672C;</td>
+</tr>
+<tr>
+<td></td>
+<td>epGroupName</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>group&#x540D;&#x5B57;</td>
+</tr>
+<tr>
+<td></td>
+<td>epStreamUrl</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x89C6;&#x9891;&#x6D41;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td></td>
+<td>lastMonitorTime</td>
+<td>long</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x6700;&#x65B0;&#x4E0A;&#x62A5;&#x65F6;&#x95F4;(s)</td>
+</tr>
+<tr>
+<td></td>
+<td>isMonitor</td>
+<td>bool</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x662F;&#x5426;&#x76D1;&#x63A7;</td>
+</tr>
+<tr>
+<td></td>
+<td>privilegeGroupKey</td>
+<td>string</td>
+<td><strong>&#x5FC5;&#x9009;</strong></td>
+<td>&#x6743;&#x9650;&#x7EC4;key</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8FD4;&#x56DE;&#x53C2;&#x6570;&#xFF1A;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x9009;&#x62E9;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>int</td>
+<td>&#x5FC5;&#x9009;</td>
+<td>&#x8FD4;&#x56DE;&#x72B6;&#x6001;&#x7801;</td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>&#x5FC5;&#x9009;</td>
+<td>&#x8FD4;&#x56DE;&#x63D0;&#x793A;message</td>
+</tr>
+<tr>
+<td>data</td>
+<td>null</td>
+<td>&#x5FC5;&#x9009;</td>
+<td>&#x8FD4;&#x56DE;&#x6570;&#x636E;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8BF7;&#x6C42;&#x793A;&#x4F8B;:</strong> </p>
+<pre><code>POST  http://192.168.245.131:9092/brain/service/device/operate
+# example request
+{
+        &quot;actionType&quot;:1,
+        &quot;deviceInfo&quot;:{
+                &quot;epId&quot;:&quot;iuqwefk12nad&quot;,
+                &quot;devSno&quot;:&quot;do8123as09d&quot;,
+                &quot;type&quot;:1
+                 ...
+        }
+}
+</code></pre><p><strong>&#x8BF7;&#x6C42;&#x6210;&#x529F;&#xFF1A;</strong></p>
+<pre><code># response
+{
+    &quot;status&quot;:0,
+    &quot;message&quot;:&quot;&#x6210;&#x529F;&quot;,
+    &quot;data&quot;:null
+}
+</code></pre>
                                 
                                 </section>
                             
@@ -1174,7 +1350,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.7.4 设备操作事件上报","level":"2.2.1.7.4","depth":4,"next":{"title":"1.8 云平台配置","level":"2.2.1.8","depth":3,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/README.md","articles":[{"title":"1.8.1 小盒子唯一授权标识字段","level":"2.2.1.8.1","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/README.md","articles":[{"title":"1.8.1.1 查询授权码/SophonMQ/api/DevSno（GET）","level":"2.2.1.8.1.1","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/8.1.1-cha-xun-shou-quan-ma-sophonmqapidevsnoget.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/8.1.1-cha-xun-shou-quan-ma-sophonmqapidevsnoget.md","articles":[]},{"title":"1.8.1.2 更新授权码/SophonMQ/api/DevSno（PUT）","level":"2.2.1.8.1.2","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/8.1.2-geng-xin-shou-quan-ma-sophonmqapidevsnoput.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/8.1.2-geng-xin-shou-quan-ma-sophonmqapidevsnoput.md","articles":[]}]},{"title":"1.8.2 管理平台访问是否需要先登录授权","level":"2.2.1.8.2","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/README.md","articles":[{"title":"1.8.2.1 查询管理平台登录地址/SophonMQ/api/LoginUrl（GET）","level":"2.2.1.8.2.1","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.1-cha-xun-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlget.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.1-cha-xun-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlget.md","articles":[]},{"title":"1.8.2.2 更新管理平台登录地址/SophonMQ/api/LoginUrl（PUT）","level":"2.2.1.8.2.2","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.2-geng-xin-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlput.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.2-geng-xin-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlput.md","articles":[]}]}]},"previous":{"title":"1.7.3 设备状态上报内容","level":"2.2.1.7.3","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/7.-she-bei-shang-bao-xin-xi-de-jie-kou-gui-fan/7.3-she-bei-zhuang-tai-shang-bao-nei-rong.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/7.-she-bei-shang-bao-xin-xi-de-jie-kou-gui-fan/7.3-she-bei-zhuang-tai-shang-bao-nei-rong.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","livereload"],"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/7.-she-bei-shang-bao-xin-xi-de-jie-kou-gui-fan/7.4-she-bei-cao-zuo-shi-jian-shang-bao.md","mtime":"2019-07-30T10:41:23.929Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-31T06:09:58.578Z"},"basePath":"../../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1.7.4 设备操作事件上报","level":"2.2.1.7.4","depth":4,"next":{"title":"1.8 云平台配置","level":"2.2.1.8","depth":3,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/README.md","articles":[{"title":"1.8.1 小盒子唯一授权标识字段","level":"2.2.1.8.1","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/README.md","articles":[{"title":"1.8.1.1 查询授权码/SophonMQ/api/DevSno（GET）","level":"2.2.1.8.1.1","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/8.1.1-cha-xun-shou-quan-ma-sophonmqapidevsnoget.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/8.1.1-cha-xun-shou-quan-ma-sophonmqapidevsnoget.md","articles":[]},{"title":"1.8.1.2 更新授权码/SophonMQ/api/DevSno（PUT）","level":"2.2.1.8.1.2","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/8.1.2-geng-xin-shou-quan-ma-sophonmqapidevsnoput.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.1-xiao-he-zi-wei-yi-shou-quan-biao-shi-zi-duan/8.1.2-geng-xin-shou-quan-ma-sophonmqapidevsnoput.md","articles":[]}]},{"title":"1.8.2 管理平台访问是否需要先登录授权","level":"2.2.1.8.2","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/README.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/README.md","articles":[{"title":"1.8.2.1 查询管理平台登录地址/SophonMQ/api/LoginUrl（GET）","level":"2.2.1.8.2.1","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.1-cha-xun-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlget.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.1-cha-xun-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlget.md","articles":[]},{"title":"1.8.2.2 更新管理平台登录地址/SophonMQ/api/LoginUrl（PUT）","level":"2.2.1.8.2.2","depth":5,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.2-geng-xin-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlput.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.2-geng-xin-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlput.md","articles":[]}]}]},"previous":{"title":"1.7.3 设备状态上报内容","level":"2.2.1.7.3","depth":4,"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/7.-she-bei-shang-bao-xin-xi-de-jie-kou-gui-fan/7.3-she-bei-zhuang-tai-shang-bao-nei-rong.md","ref":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/7.-she-bei-shang-bao-xin-xi-de-jie-kou-gui-fan/7.3-she-bei-zhuang-tai-shang-bao-nei-rong.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","livereload"],"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"v1.0/1.1-api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/7.-she-bei-shang-bao-xin-xi-de-jie-kou-gui-fan/7.4-she-bei-cao-zuo-shi-jian-shang-bao.md","mtime":"2019-07-31T10:13:11.258Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-31T10:49:18.530Z"},"basePath":"../../../..","book":{"language":""}});
         });
     </script>
 </div>
