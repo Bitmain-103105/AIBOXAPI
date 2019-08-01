@@ -1,5 +1,7 @@
 # 版本列表
 
+![img](imgs/logo-sophon.png)
+
 | 版本号 | 说明 |
 | :--- | :--- |
 | [版本 V2R1C01](V2R1C01/README.md) | 初始版本 |
