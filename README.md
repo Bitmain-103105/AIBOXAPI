@@ -1,6 +1,6 @@
 # 版本列表
 
-![img](imgs/logo-sophon.png)
+![](imgs/logo-sophon.png)
 
 | 版本号 | 说明 |
 | :--- | :--- |
