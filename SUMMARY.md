@@ -1,7 +1,9 @@
+
+
 # AIBOX
 
 
-[//]: # (--------资源链接配置，配置后在下面引用--------)
+[//]: # "--------资源链接配置，配置后在下面引用--------"
 [版本列表]:README.md
 [V2R1C01列表]:V2R1C01/README.md
 [1 基于Rabbit MQ的端云对接说明]:V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md
@@ -37,7 +39,7 @@
 
 [V2R2C01说明]:V2R2C01/shuo-ming.md
 [V2R2C01列表]:V2R2C01/README.md
-[//]: # (--------资源链接配置，配置后在下面引用--------)
+[//]: # "--------资源链接配置，配置后在下面引用--------"
 
 
 
@@ -108,4 +110,42 @@
         - [8.2.1 查询管理平台登录地址/SophonMQ/api/LoginUrl（GET）][8.2.1 查询管理平台登录地址/SophonMQ/api/LoginUrl（GET）]
         - [8.2.2 更新管理平台登录地址/SophonMQ/api/LoginUrl（PUT）][8.2.2 更新管理平台登录地址/SophonMQ/api/LoginUrl（PUT）]
     - [9 URL组合][9 URL组合]
+    
   - [2 Sophon人脸识别雾计算系统开发文档][2 Sophon人脸识别雾计算系统开发文档]
+  
+    - [1 概要](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-1概要)
+    - [2 Sophon人脸识别雾计算系统架构](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-2Sophon人脸识别雾计算系统架构)
+    - [3 Sophon人脸识别雾计算系统和云端交互方式](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-3Sophon人脸识别雾计算系统和云端交互方式)
+    - [4 接口API详细说明](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-4接口API详细说明)
+      - [4.1 权限组管理](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-4.1权限组管理)
+        - [创建分组/SophonFogSys/api/permissions（POST）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-创建分组/SophonFogSys/api/permissions（POST）)
+        - [查询分组/SophonFogSys/api/permissions（GET）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-查询分组/SophonFogSys/api/permissions（GET）)
+        - [删除分组/SophonFogSys/api/permissions（DELETE）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-删除分组/SophonFogSys/api/permissions（DELETE）)
+      - [4.2 人脸底库组管理](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-4.2人脸底库组管理)
+        - [创建分组/SophonFogSys/api/groups（POST）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-创建分组/SophonFogSys/api/groups（POST）)
+        - [查询分组/SophonFogSys/api/groups（GET）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-查询分组/SophonFogSys/api/groups（GET）)
+        - [删除分组/SophonFogSys/api/groups（DELETE）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-删除分组/SophonFogSys/api/groups（DELETE）)
+        - [添加人员到分组/SophonFogSys/api/GroupUsers（PUT）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-添加人员到分组/SophonFogSys/api/GroupUsers（PUT）)
+        - [从分组删除人员/SophonFogSys/api/GroupUsers（DELETE）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-从分组删除人员/SophonFogSys/api/GroupUsers（DELETE）)
+      - [4.3 人员管理](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-4.3人员管理)
+        - [创建人员SophonFogSys/api/users（POST）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-创建人员SophonFogSys/api/users（POST）)
+        - [查询人员/SophonFogSys/api/users（GET）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-查询人员/SophonFogSys/api/users（GET）)
+        - [更新人员/SophonFogSys/api/users（PUT）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-更新人员/SophonFogSys/api/users（PUT）)
+        - [删除人员/SophonFogSys/api/users（DELETE）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-删除人员/SophonFogSys/api/users（DELETE）)
+      - [4.4 事件管理](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-4.4事件管理)
+        - [设置事件反馈模式/SophonFogSys/api/GateControllerMode（POST）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-设置事件反馈模式/SophonFogSys/api/GateControllerMode（POST）)
+        - [获取事件反馈模式/SophonFogSys/api/GateControllerMode（GET）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-获取事件反馈模式/SophonFogSys/api/GateControllerMode（GET）)
+        - [请求小盒子响应事件/SophonFogSys/api/EventAction（PUT）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-请求小盒子响应事件/SophonFogSys/api/EventAction（PUT）)
+        - [配置/修改实时事件上报接收服务器地址/SophonFogSys/api/EventServerUrl（POST）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-配置/修改实时事件上报接收服务器地址/SophonFogSys/api/EventServerUrl（POST）)
+        - [获取实时事件上报接收服务器地址/SophonFogSys/api/EventServerUrl（GET）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-获取实时事件上报接收服务器地址/SophonFogSys/api/EventServerUrl（GET）)
+        - [实时上报事件具体内容（p0）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-实时上报事件具体内容（p0）)
+        - [配置/修改历史事件上报接收服务器地址/SophonFogSys/api/HistoryEventUrl](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-配置/修改历史事件上报接收服务器地址/SophonFogSys/api/HistoryEventUrl)
+        - [获取历史事件上报接收服务器地址/SophonFogSys/api/HistoryEventUrl（GET）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-获取历史事件上报接收服务器地址/SophonFogSys/api/HistoryEventUrl（GET）)
+        - [异步上报事件具体内容](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-异步上报事件具体内容)
+      - [4.5 雾端状态管理](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-4.5雾端状态管理)
+        - [配置/修改状态上报接收服务器地址/SophonFogSys/api/MonitorServerUrl（POST）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-配置/修改状态上报接收服务器地址/SophonFogSys/api/MonitorServerUrl（POST）)
+        - [获取状态上报接收服务器地址/SophonFogSys/api/MonitorServerUrl（GET）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-获取状态上报接收服务器地址/SophonFogSys/api/MonitorServerUrl（GET）)
+        - [主动上报雾端状态](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-主动上报雾端状态)
+        - [清空数据/SophonFogSys/api/WipeData（POST）](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-清空数据/SophonFogSys/api/WipeData（POST）)
+  
+    
