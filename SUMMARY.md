@@ -5,11 +5,14 @@
 
 - [版本列表](README.md)
 
-## V2R2C01 <a id="V2R2C01"></a>
-- [1.说明](V2R2C01/shuo-ming.md)
-- [2.列表](V2R2C01/README.md)
+
+
+## V2R1C02 <a id="V2R1C02"></a>
+- [1.说明](V2R1C02/1-shuo-ming.md)
+- [2.列表](V2R1C02/README.md)
   
   - [1 基于Rabbit MQ的端云对接说明](V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
+    
     - [1 基于Rabbit MQ的端云系统架构设计](V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/1.-ji-yu-rabbit-mq-de-duan-yun-xi-tong-jia-gou-she-ji.md)
     - [2 MQ接口流程说明](V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/2.-mq-jie-kou-liu-cheng-shuo-ming/README.md)
       - [2.1 建立连接](V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/2.-mq-jie-kou-liu-cheng-shuo-ming/2.1-jian-li-lian-jie.md)
@@ -41,7 +44,7 @@
     
   - [2 Sophon人脸识别雾计算系统开发文档](V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/README.md)
     - [1 概要](V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/1-gai-yao.md)
-    - [2 Sophon人脸识别雾计算系统架构](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-2Sophon人脸识别雾计算系统架构)
+    - [2 Sophon人脸识别雾计算系统架构](V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/2-Sophon人脸识别雾计算系统架构.md)
     - [3 Sophon人脸识别雾计算系统和云端交互方式](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-3Sophon人脸识别雾计算系统和云端交互方式)
     - [4 接口API详细说明](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-4接口API详细说明)
       - [4.1 权限组管理](https://info.bitmain.vip:8443/pages/viewpage.action?pageId=59841178#Sophon人脸识别雾计算系统开发文档-4.1权限组管理)
@@ -78,7 +81,8 @@
     
   
 ## V2R1C01 <a id="V2R1C01"></a>
-- [V2R1C01列表](V2R1C01/README.md)
+- [1.列表](V2R1C01/README.md)
+  
   - [1 基于Rabbit MQ的端云对接说明](V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
     - [1 基于Rabbit MQ的端云系统架构设计](V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/1.-ji-yu-rabbit-mq-de-duan-yun-xi-tong-jia-gou-she-ji.md)
     - [2 MQ接口流程说明](V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/2.-mq-jie-kou-liu-cheng-shuo-ming/README.md)
