@@ -1,6 +1,6 @@
 
 
-# AIBOX-English
+# AIBOX
 
 
 - [Version List](README.md)
