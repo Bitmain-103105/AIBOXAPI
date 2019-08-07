@@ -85,8 +85,7 @@
 ## V2R1C01  <a id="V2R1C01"></a>
 
 - [中文]()
-  - [1.说明](zh/V2R1C02/shuo-ming.md)
-  - [2.列表](zh/V2R1C02/README.md)
+  - [2.列表](zh/V2R1C01/README.md)
     - [1 基于Rabbit MQ的端云对接说明](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
       - [1 基于Rabbit MQ的端云系统架构设计](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/1.-ji-yu-rabbit-mq-de-duan-yun-xi-tong-jia-gou-she-ji.md)
       - [2 MQ接口流程说明](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/2.-mq-jie-kou-liu-cheng-shuo-ming/README.md)
