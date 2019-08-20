@@ -2,7 +2,7 @@
 
 | 文档版本      |            系统版本             |   说明   |
 | ------------- | :-----------------------------: | :------: |
-| Version 2.2.1 | [V2R2C01](/zh/V2R2C01/README.md) | 开发版本 |
-| Version 2.1.1 | [V2R1C01](/zh/V2R1C01/README.md) | 稳定版本 |
+| Version 2.2.1 | [V2R2C01](/zh/V2R2C01_README.md) | 开发版本 |
+| Version 2.1.1 | [V2R1C01](/zh/V2R1C01_README.md) | 稳定版本 |
 
 
