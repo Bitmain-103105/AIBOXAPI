@@ -4,15 +4,18 @@
 
 ------
 
-## Version 2.2.1  <a id="version2.2.1"></a>
+## Version 2.2.1  <a id="V2R2C01"></a>
 
-- [V2R2C01列表](zh/V2R2C01/README.md)
+- [V2R2C01文档](zh/V2R2C01/README.md)
+  
   - [SE3 AI迷你机说明书]()
   - [系统配置指南]()
     - [网络摄像机模式]()
     - [闸机模式]()
     - [抓拍机模式]()
   - [系统对接说明书]()
+    - [对接管理平台]()
+    - [对接SE3盒子]()
   - [基于Rabbit MQ的端云对接说明](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
     - [1.基于Rabbit MQ的端云系统架构设计](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/1.-ji-yu-rabbit-mq-de-duan-yun-xi-tong-jia-gou-she-ji.md)
     - [2.MQ接口流程说明](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/2.-mq-jie-kou-liu-cheng-shuo-ming/README.md)
@@ -77,13 +80,36 @@
         - [4.5.2获取状态上报接收服务器地址/SophonFogSys/api/MonitorServerUrl（GET）](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/4-jie-kou-API-xiang-xi-shuo-ming/4.5-wu-duan-zhuan-tai-guan-li/2-huo-qu-zhuan-tai-shang-bao-jie-shou-fu-wu-qi-di-zhi-SophonFogSysapiMonitorServerUrl（GET）.md)
         - [4.5.3主动上报雾端状态](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/4-jie-kou-API-xiang-xi-shuo-ming/4.5-wu-duan-zhuan-tai-guan-li/3-zhu-dong-shang-bao-wu-duan-zhuan-tai.md)
         - [4.5.4清空数据/SophonFogSys/api/WipeData（POST）](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/4-jie-kou-API-xiang-xi-shuo-ming/4.5-wu-duan-zhuan-tai-guan-li/4-qing-kong-shu-ju-SophonFogSysapiWipeData（POST）.md)
+  - [客户支持文档](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/README.md)
+    - [1.人脸识别系统闸机门禁机模式快速配置指南](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/1.zha-ji-men-jin-ji-mo-shi-kuai-su-pei-zhi-zhi-nan/README.md)
+      - [1.1系统网络图](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/1.zha-ji-men-jin-ji-mo-shi-kuai-su-pei-zhi-zhi-nan/1.xi-tong-wang-luo.md)
+      - [1.2闸机和门禁机设置](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/1.zha-ji-men-jin-ji-mo-shi-kuai-su-pei-zhi-zhi-nan/2.zha-ji-he-men-jin-ji-she-zhi.md)
+      - [1.3SE3 AI迷你机设置](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/1.zha-ji-men-jin-ji-mo-shi-kuai-su-pei-zhi-zhi-nan/3.AI-Mini-ji-she-zhi.md)
+      - [1.4系统功能验证](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/1.zha-ji-men-jin-ji-mo-shi-kuai-su-pei-zhi-zhi-nan/4.xi-tong-gong-neng-yan-zheng.md)
+    - [2.人脸识别迎宾系统快速设置指南](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/2.ying-bin-xi-tong-kuai-su-she-zhi-zhi-nan/README.md)
+      - [2.1迎宾机系统组网图](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/2.ying-bin-xi-tong-kuai-su-she-zhi-zhi-nan/1.ying-bin-ji-xi-tong-zu-wang-tu.md)
+      - [2.2迎宾机系统基本功能](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/2.ying-bin-xi-tong-kuai-su-she-zhi-zhi-nan/2.ying-bin-ji-xi-tong-ji-ben-gong-neng.md)
+      - [2.3抓拍机设置](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/2.ying-bin-xi-tong-kuai-su-she-zhi-zhi-nan/3.zhua-pai-ji-she-zhi.md)
+      - [2.4迎宾电视APK操作指南](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/2.ying-bin-xi-tong-kuai-su-she-zhi-zhi-nan/4.ying-bin-dian-shi-APK-cao-zuo-zhi-nan.md)
+  
+  
 
 ------
 
-## Version 2.1.1  <a id="version2.1.1"></a>
+## Version 2.1.1  <a id="V2R1C01"></a>
 
-- [V2R1C01列表](zh/V2R1C01/README.md)
-  - [1.基于Rabbit MQ的端云对接说明](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
+- [V2R1C01文档](zh/V2R1C01/README.md)
+  
+  - [SE3 AI迷你机说明书]()
+  - [系统配置指南]()
+    - [网络摄像机模式]()
+    - [闸机模式]()
+    - [抓拍机模式]()
+  - [系统对接说明书]()
+    - [对接管理平台]()
+    - [对接SE3盒子]()
+  
+  - [基于Rabbit MQ的端云对接说明](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/README.md)
     - [1.基于Rabbit MQ的端云系统架构设计](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/1.-ji-yu-rabbit-mq-de-duan-yun-xi-tong-jia-gou-she-ji.md)
     - [2.MQ接口流程说明](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/2.-mq-jie-kou-liu-cheng-shuo-ming/README.md)
       - [2.1建立连接](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/2.-mq-jie-kou-liu-cheng-shuo-ming/2.1-jian-li-lian-jie.md)
@@ -110,7 +136,7 @@
         - [8.2.1查询管理平台登录地址/SophonMQ/api/LoginUrl（GET）](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.1-cha-xun-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlget.md)
         - [8.2.2更新管理平台登录地址/SophonMQ/api/LoginUrl（PUT）](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/8.-yun-ping-tai-pei-zhi/8.2-guan-li-ping-tai-fang-wen-shi-fou-xu-yao-xian-deng-lu-shou-quan/8.2.2-geng-xin-guan-li-ping-tai-deng-lu-di-zhi-sophonmqapiloginurlput.md)
     - [9.URL组合](zh/V2R1C01/api-lie-biao/1.-ji-yu-rabbit-mq-de-duan-yun-dui-jie-shuo-ming/9.-url-zu-he.md)
-  - [2.Sophon人脸识别雾计算系统开发文档](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/README.md)
+  - [Sophon人脸识别雾计算系统开发文档](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/README.md)
     - [1.概要](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/1-gai-yao.md)
     - [2.Sophon人脸识别雾计算系统架构](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/2-Sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-jia-gou.md)
     - [3.Sophon人脸识别雾计算系统和云端交互方式](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/3-Sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-he-yun-duan-jiao-hu-fang-shi.md)
@@ -147,7 +173,7 @@
         - [4.5.2获取状态上报接收服务器地址/SophonFogSys/api/MonitorServerUrl（GET）](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/4-jie-kou-API-xiang-xi-shuo-ming/4.5-wu-duan-zhuan-tai-guan-li/2-huo-qu-zhuan-tai-shang-bao-jie-shou-fu-wu-qi-di-zhi-SophonFogSysapiMonitorServerUrl（GET）.md)
         - [4.5.3主动上报雾端状态](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/4-jie-kou-API-xiang-xi-shuo-ming/4.5-wu-duan-zhuan-tai-guan-li/3-zhu-dong-shang-bao-wu-duan-zhuan-tai.md)
         - [4.5.4清空数据/SophonFogSys/api/WipeData（POST）](zh/V2R1C01/api-lie-biao/2.sophon-ren-lian-shi-bie-wu-ji-suan-xi-tong-kai-fa-wen-dang/4-jie-kou-API-xiang-xi-shuo-ming/4.5-wu-duan-zhuan-tai-guan-li/4-qing-kong-shu-ju-SophonFogSysapiWipeData（POST）.md)
-  - [3.客户支持文档](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/README.md)
+  - [客户支持文档](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/README.md)
     - [1.人脸识别系统闸机门禁机模式快速配置指南](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/1.zha-ji-men-jin-ji-mo-shi-kuai-su-pei-zhi-zhi-nan/README.md)
       - [1.1系统网络图](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/1.zha-ji-men-jin-ji-mo-shi-kuai-su-pei-zhi-zhi-nan/1.xi-tong-wang-luo.md)
       - [1.2闸机和门禁机设置](zh/V2R1C01/api-lie-biao/3.ke-hu-zhi-chi/1.zha-ji-men-jin-ji-mo-shi-kuai-su-pei-zhi-zhi-nan/2.zha-ji-he-men-jin-ji-she-zhi.md)
