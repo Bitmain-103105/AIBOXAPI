@@ -2,7 +2,7 @@
 
 Sophon人脸识别雾计算系统框架如下：
 
-![](../../imgs/SophonFog私有云架构.png)
+![](../../imgs/SophonFog-si-you-yun-jia-gou.png)
 
 
 
@@ -34,4 +34,4 @@ Android系统设备，Sophon人脸识别系统提供一个配套的应用APK，�
 
 Sophon人脸识别雾计算系统注册和识别流程如下：
 
-![](../../imgs/流程图.png)
+![](../../imgs/liu-cheng-tu.png)

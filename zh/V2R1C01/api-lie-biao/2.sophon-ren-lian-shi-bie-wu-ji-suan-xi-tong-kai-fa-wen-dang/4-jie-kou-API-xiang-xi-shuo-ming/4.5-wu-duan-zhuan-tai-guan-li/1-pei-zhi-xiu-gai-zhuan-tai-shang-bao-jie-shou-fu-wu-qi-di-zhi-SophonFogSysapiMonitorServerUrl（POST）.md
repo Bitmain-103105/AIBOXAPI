@@ -31,7 +31,3 @@
 | error    | code     | int    | 请求错误码 |
 |          | message  | string | 错误描述   |
 |          | status   | string | 错误类型   |
-
-Postman 示例调用：
-
-https://documenter.getpostman.com/view/3306589/RznFoxqf#1e56f855-8d9d-4a0c-afe7-6d62d027ca16

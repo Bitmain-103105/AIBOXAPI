@@ -13,9 +13,9 @@
 
 私有云和Sophon人脸识别雾计算系统之间事件交互过程如下：
 
-![](../../imgs/2_3_事件上报管理.png)
+![](../../imgs/2_3-shi-jian-shang-bao-guan-li.png)
 
 私有云和Sophon人脸识别雾计算系统之间状态交互过程如下：
 
-![](../../imgs/状态上报管理.png)
+![](../../imgs/zhuan-tai-shang-bao-guan-li.png)
 

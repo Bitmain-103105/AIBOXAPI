@@ -32,6 +32,3 @@
 |          | message  | string | 错误描述   |
 |          | status   | string | 错误类型   |
 
-Postman 示例调用：
-
-https://documenter.getpostman.com/view/3306589/RznFoxqf#51625b5e-3945-d346-8f6a-ac75caec9ba6
