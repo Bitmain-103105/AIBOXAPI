@@ -2,10 +2,6 @@
 
 - [版本](README.md)
 
-------
-
-## Version 2.2.1  <a id="V2R2C01"></a>
-
 - [V2R2C01文档](zh/V2R2C01/README.md)
   
   - [SE3 AI迷你机说明书]()
