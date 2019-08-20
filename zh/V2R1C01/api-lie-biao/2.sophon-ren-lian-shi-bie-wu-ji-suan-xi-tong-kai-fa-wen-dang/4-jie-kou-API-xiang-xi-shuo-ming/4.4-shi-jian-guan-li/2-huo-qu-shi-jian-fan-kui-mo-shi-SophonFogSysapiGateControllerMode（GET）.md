@@ -1,4 +1,4 @@
-#### 获取事件反馈模式/SophonFogSys/api/GateControllerMode（GET）
+# 获取事件反馈模式/SophonFogSys/api/GateControllerMode（GET）
 
 **功能描述**
 
@@ -16,9 +16,9 @@
 
 请求成功        
 
-| 一级参数 | 二级参数        | 类型   | 描述       |
-| :------- | :-------------- | :----- | :--------- |
-| data     | controller_mode | string | 设置的信息 |
+| 一级参数 | 二级参数        | 类型   | <font color="#dd0000">默认值</font> | 描述       | <font color="#dd0000">举例</font> |
+| :------- | :-------------- | :----- | ----------------------------------- | :--------- | --------------------------------- |
+| data     | controller_mode | string |                                     | 设置的信息 |                                   |
 
 请求失败
 
@@ -27,7 +27,3 @@
 | error    | code     | int    | 请求错误码 |
 |          | message  | string | 错误描述   |
 |          | status   | string | 错误类型   |
-
-Postman 示例调用：
-
-https://documenter.getpostman.com/view/3306589/RznFoxqf#70e98169-d445-707f-f607-fe184bb7bb41

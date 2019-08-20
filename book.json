@@ -1,5 +1,15 @@
 {
   "plugins": [
-    "expandable-chapters"
-  ]
+    	"expandable-chapters",
+	"auto-scroll-table",
+	"pageview-count",
+	"popup",
+	"expandable-chapters-small",
+	"back-to-top-button"
+  ],
+   "pluginsConfig": {
+        "image-captions": {
+          "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+      }
+    }
 }
