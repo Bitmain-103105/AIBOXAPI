@@ -3,7 +3,7 @@
 
 # 一、系统网络图
 
-1. 参考下图，将各个设备加入同一局域网络内。![](../../../imgs/wang-luo-shexiang-ji-zu-wang.png)
+1. 参考下图，将各个设备加入同一局域网络内。![](../../../imgs/wang-luo-shexiang-ji-zu-wang.png)<br/>
 
 
 
