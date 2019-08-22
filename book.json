@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "expandable-chapters",
+	"auto-scroll-table",
+	"expandable-chapters-small",
+	"-sharing"
+  ],
+   "pluginsConfig": {
+        "image-captions": {
+          "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+      }
+    }
+}
