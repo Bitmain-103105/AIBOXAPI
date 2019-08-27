@@ -1,18 +1,18 @@
-#  V2.2.1
+# 版本
 
-| 文档版本   |            系统版本             |   说明   |
-| :-------------: | :-----------------------------: | :------: |
-| [V2.2.1](zh/V2R2C01_README.md) | V2R2C01 | 开发版本 |
+| 文档版本 | 系统版本 | 说明 |
+| :---: | :---: | :---: |
+| [V2.2.1](v2r2c01_readme/) | V2R2C01 | 开发版本 |
 
 ## 1 优势和特点
 
-![](zh/V2R2C01/imgs/se3_int_key.gif)
+![](.gitbook/assets/se3_int_key%20%281%29.gif)
 
 ## 2 性能参数
 
-![1566470966941](zh/V2R2C01/imgs/SE3-detail.png)
+![1566470966941](.gitbook/assets/se3-detail.png)
 
 ## 3 三种应用场景
 
-![](zh/V2R2C01/imgs/se3_int_3.gif)
+![](.gitbook/assets/se3_int_key.gif)
 
