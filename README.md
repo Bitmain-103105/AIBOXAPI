@@ -10,11 +10,10 @@
 
 {% tabs %}
 {% tab title="First Tab" %}
-aaaaaa
-
-dddddd
-
-dddd
+```text
+jajaj
+python
+```
 {% endtab %}
 
 {% tab title="Second Tab" %}
